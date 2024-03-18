@@ -1,0 +1,24 @@
+.linear{
+width: 1305px;
+height: 1710px;
+top: 0;
+left: 0;
+background: linear-gradient(180deg, #FFFFFF 35.7%, #D8EFFF 100%);
+position: relative;
+z-index: 0;
+}
+
+@media(max-width:470px){
+    .linear{
+        height: 800px;
+        width: 100%;
+    }
+}
+
+@media(max-width:320px){
+    .linear{
+        height: 730px;
+        width: 100%;
+    }
+}
+   

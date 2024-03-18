@@ -1,0 +1,141 @@
+.card{
+ text-align: center;
+ width: 250px;
+padding: 20px 12px 2px 12px;
+gap: 15px;
+border-radius: 15px;
+background: linear-gradient(90deg, #FBFDFF 0%, #D8EFFF 100.86%);
+box-shadow: 0px 0px 15px 0px rgba(142, 160, 173, 0.35);
+}
+
+.head1{
+margin: 0;
+font-size: 19px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(1, 69, 122, 1);
+}
+
+.head2{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(1, 69, 122, 1);
+    margin: 0
+}
+
+.head3{
+font-size: 16px;
+margin-top: 12px;
+color: rgba(1, 69, 122, 1);
+}
+
+.ing{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.imgs{
+    width:120px;
+    height:97px
+}
+
+@media (max-width: 1024px) {
+    .card{
+       width: 30%;
+       padding-top: calc((20px * 1024) / 1710);
+       padding-right: calc((12px * 1024) / 1710);
+       padding-bottom: calc((2px * 1024) / 1710);
+       padding-left: calc((12px * 1024) / 1710);
+       gap: calc((15px * 1024) / 1710);
+       }
+       .head1{
+       line-height: 100%;
+       }
+       
+       .head2{
+           font-size: 100%;
+           line-height: 100%;
+       }
+       
+       .head3{
+       font-size: 100%;
+       margin-top: calc((12px * 1024) / 1710);
+       }
+       
+       .ing{
+           margin-top: calc((5px * 1024) / 1710);
+       }
+       .imgs{
+        width:calc((120px * 1024) / 1710);
+        height:calc((97px * 1024) / 1710)
+    }
+    }
+   
+    @media (max-width: 470px) {
+        .card{
+            width: 30%;
+            padding-top: calc((20px * 470) / 1710);
+            padding-right: calc((12px * 470) / 1710);
+            padding-bottom: calc((2px * 470) / 1710);
+            padding-left: calc((12px * 470) / 1710);
+            gap: calc((15px * 470) / 1710);
+            }
+            .head1{
+            line-height: 100%;
+            font-size: 50%;
+            }
+            
+            .head2{
+                font-size: 40%;
+                line-height: 100%;
+            }
+            
+            .head3{
+            font-size: 35%;
+            margin-top: calc((12px * 470) / 1710);
+            }
+            
+            .ing{
+                margin-top: calc((5px * 470) / 1710);
+            }
+            .imgs{
+                width:calc((120px * 470) / 1710);
+                height:calc((97px * 470) / 1710)
+            }
+    }
+    
+    @media (max-width: 320px) {
+        .card{
+            width: 30%;
+            padding-top: calc((20px * 320) / 1710);
+            padding-right: calc((12px * 320) / 1710);
+            padding-bottom: calc((2px * 320) / 1710);
+            padding-left: calc((12px * 320) / 1710);
+            gap: calc((15px * 320) / 1710);
+            }
+            .head1{
+            font-size: 50%;
+            }
+            
+            .head2{
+                font-size: 40%;
+            }
+            
+            .head3{
+            font-size:30%;
+            margin-top: calc((12px * 320) / 1710);
+            }
+            
+            .ing{
+                margin-top: calc((5px * 320) / 1710);
+            }
+            .imgs{
+                width:calc((120px * 320) / 1710);
+                height:calc((97px * 320) / 1710)
+            }
+    }

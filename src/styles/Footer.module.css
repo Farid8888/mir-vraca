@@ -1,0 +1,375 @@
+.footer h2 {
+  font-family: Century Gothic;
+  font-size: 26.8px;
+  font-weight: 800px;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  margin: 3px 29px;
+  color: rgba(1, 69, 122, 1);
+  top: 0;
+}
+
+.footer {
+  position: relative;
+  margin-top: 58px;
+}
+.vector {
+  width: 890px;
+  height: 72.5px;
+  position: relative;
+}
+
+.back {
+  margin: 22px 29px;
+  padding: 9px 0;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #fdd966 0%, #bcd77e 68.54%);
+}
+
+.back p {
+  font-size: 19px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(1, 69, 122, 1);
+  margin: 0;
+}
+
+.footer h4 {
+  width: 924px;
+  height: 19px;
+  font-size: 15.7px;
+  font-weight: 800;
+  margin-top: -0.5px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: rgba(1, 69, 122, 1);
+}
+
+.cardFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 29px;
+}
+
+.lines {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 165px;
+  margin-top: -36px;
+}
+
+.lines img {
+  width: 285.5px;
+  height: 36px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 13px 29px;
+}
+
+.bottom div {
+  border-radius: 15px;
+  background: linear-gradient(90deg, #fbfdff 0%, #d8efff 100.86%);
+  box-shadow: 0px 0px 15px 0px rgba(142, 160, 173, 0.35);
+  width: 365px;
+}
+.bottom div:first-child {
+  padding: 5px 28px;
+  height: 256px;
+}
+
+.bottom p {
+  font-size: 16.3px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(1, 69, 122, 1);
+}
+.last p {
+  padding: -3px;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.last {
+  padding: 6px 28px;
+  height: 248.5px;
+}
+
+@media (max-width: 1024px) {
+    .footer h2 {
+        font-size: calc((26.8px * 1024) / 1710);
+        line-height: calc((49px * 1024) / 1710);
+        margin-top: calc((3px * 1024) / 1710);
+        margin-bottom: calc((3px * 1024) / 1710);
+        margin-left: calc((29px * 1024) / 1710);
+        margin-right: calc((29px * 1024) / 1710);
+      }
+      .vector {
+        width: 95%;
+        height: calc((72.5px * 1024) / 1710);
+      }
+      .back {
+        margin-top: calc((22px * 1024) / 1710);
+        margin-bottom: calc((22px * 1024) / 1710);
+        margin-left: calc((29px * 1024) / 1710);
+        margin-right: calc((29px * 1024) / 1710);
+        padding-top: calc((9px * 1024) / 1710);
+        padding-bottom: calc((9px * 1024) / 1710);
+      }
+      
+      .back p {
+        font-size: 100%;
+        line-height: 100%;
+      }
+      
+      .footer h4 {
+        width: 100%;
+        font-size: 100%;
+        margin-top: calc((-0.5px * 1024) / 1710);
+        line-height: 100%;
+        letter-spacing: 100%;
+      }
+      .cardFlex {
+        margin-top: calc((40px * 1024) / 1710);
+        margin-bottom: calc((40px * 1024) / 1710);
+        margin-left: calc((29px * 1024) / 1710);
+        margin-right: calc((29px * 1024) / 1710);
+      }
+      
+      .lines {
+        margin-top: calc((-36px * 1024) / 1710);
+        padding-left: 23%;
+        padding-right: 21%;
+      }
+      
+      .lines img {
+        width: calc((305.5px * 1024) / 1710);
+        height: calc((56px * 1024) / 1710);
+      }
+      
+      .bottom {
+        margin-top: calc((13px * 1024) / 1710);
+        margin-bottom: calc((13px * 1024) / 1710);
+        margin-left: calc((29px * 1024) / 1710);
+        margin-right: calc((29px * 1024) / 1710);
+      }
+      
+      .bottom div {
+        width: 43%;
+      }
+      .bottom div:first-child {
+        height: 100%;
+        padding-top: calc((5px * 1024) / 1710);
+        padding-bottom: calc((5px * 1024) / 1710);
+        padding-left: calc((28px * 1024) / 1710);
+        padding-right: calc((28px * 1024) / 1710);
+      }
+      
+      .bottom p {
+        font-size: 100%;
+      }
+      .last p {
+        padding: calc((-3px * 1024) / 1710);
+        font-size: 100%;
+      }
+      .last {
+        height: 100%;
+        padding-top: calc((6px * 1024) / 1710);
+        padding-bottom: calc((6px * 1024) / 1710);
+        padding-left: calc((28px * 1024) / 1710);
+        padding-right: calc((28px * 1024) / 1710);
+      }
+}
+@media (max-width: 730px) {
+    .footer h2{
+        margin-top: calc((3px * 730) / 1710);
+        margin-bottom: calc((3px * 730) / 1710);
+        margin-left: calc((29px * 730) / 1710);
+        margin-right: calc((29px * 730) / 1710);
+    }
+   
+}
+@media (max-width: 470px) {
+    .footer h2 {
+        font-size: 85%;
+        margin-top: calc((3px * 470) / 1710);
+        margin-left: calc((29px * 470) / 1710);
+        margin-right: calc((29px * 470) / 1710);
+        margin-bottom: calc((3px * 470) / 1710);
+      }
+      .footer {
+        margin-top: calc((58px * 470) / 1710);
+      }
+      .vector {
+        width: calc((890px * 470) / 1710);
+        height: calc((72.5px * 470) / 1710);
+      }
+      .back {
+        margin-top: calc((22px * 470) / 1710);
+        margin-bottom: calc((22px * 470) / 1710);
+        margin-left: calc((29px * 470) / 1710);
+        margin-right: calc((29px * 470) / 1710);
+        padding-top: calc((9px * 470) / 1710);
+        padding-bottom: calc((9px * 470) / 1710);
+      }
+      
+      .back p {
+        font-size: 55%;
+        line-height: calc((38px * 470) / 1710);
+      }
+      
+      .footer h4 {
+        width:100%;
+        height: 100%;
+        font-size: 70%;
+        margin-top: calc((-0.5px * 470) / 1710);
+        line-height: calc((24px * 470) / 1710);
+        letter-spacing: calc((0.3px * 470) / 1710);
+      }
+      .cardFlex {
+        margin-top: calc((40px * 470) / 1710);
+        margin-bottom: calc((40px * 470) / 1710);
+        margin-left: calc((29px * 470) / 1710);
+        margin-right: calc((29px * 470) / 1710);
+      }
+      
+      .lines {
+        margin-top: calc((-36px * 470) / 1710);
+        padding-left: calc((165px * 470) / 1710);
+        padding-right: calc((165px * 470) / 1710);
+      }
+      
+      .lines img {
+        width:40%;
+        height: calc((36px * 470) / 1710);
+      }
+      
+      .bottom {
+        margin-top: calc((13px * 470) / 1710);
+        margin-bottom: calc((13px * 470) / 1710);
+        margin-left: calc((29px * 470) / 1710);
+        margin-right: calc((29px * 470) / 1710);
+      }
+      
+      .bottom div {
+        width: 45%;
+      }
+      .bottom div:first-child {
+        padding-top: calc((5px * 470) / 1710);
+        padding-bottom: calc((5px * 470) / 1710);
+        padding-left: calc((28px * 470) / 1710);
+        padding-right: calc((28px * 470) / 1710);
+      }
+      
+      .bottom p {
+        font-size: 60%;
+      }
+      .last p {
+        padding: calc((-3px * 470) / 1710);
+        font-size: 60%;
+      }
+      .last {
+        height: 100%;
+        padding-top: calc((6px * 470) / 1710);
+        padding-bottom: calc((6px * 470) / 1710);
+        padding-left: calc((28px * 470) / 1710);
+        padding-right: calc((28px * 470) / 1710);
+      }
+}
+
+@media (max-width: 320px) {
+    .footer h2 {
+        font-size: 65%;
+        margin-top: calc((3px * 320) / 1710);
+        margin-left: calc((29px * 320) / 1710);
+        margin-right: calc((29px * 320) / 1710);
+        margin-bottom: calc((3px * 320) / 1710);
+      }
+      .footer {
+        margin-top: calc((58px * 320) / 1710);
+      }
+      .vector {
+        width: 98%;
+        height: 100%;
+      }
+      .back {
+        margin-top: calc((22px * 320) / 1710);
+        margin-bottom: calc((22px * 320) / 1710);
+        margin-left: calc((29px * 320) / 1710);
+        margin-right: calc((29px * 320) / 1710);
+        padding-top: calc((9px * 320) / 1710);
+        padding-bottom: calc((9px * 320) / 1710);
+      }
+      
+      .back p {
+        font-size: 50%;
+        line-height: calc((38px * 320) / 1710);
+      }
+      
+      .footer h4 {
+        width: 100%;
+        font-size: 45%;
+        margin-top: calc((-0.5px * 320) / 1710);
+        line-height: calc((24px * 320) / 1710);
+        letter-spacing: calc((0.3px * 320) / 1710);
+      }
+      .cardFlex {
+        margin-top: calc((40px * 320) / 1710);
+        margin-bottom: calc((40px * 320) / 1710);
+        margin-left: calc((29px * 320) / 1710);
+        margin-right: calc((29px * 320) / 1710);
+      }
+      
+      .lines {
+        margin-top: calc((-36px * 320) / 1710);
+        padding-left: calc((165px * 320) / 1710);
+        padding-right: calc((165px * 320) / 1710);
+      }
+      
+      .lines img {
+        width: 40%;
+      }
+      
+      .bottom {
+        margin-top: calc((13px * 320) / 1710);
+        margin-bottom: calc((13px * 320) / 1710);
+        margin-left: calc((29px * 320) / 1710);
+        margin-right: calc((29px * 320) / 1710);
+      }
+      
+      .bottom div {
+        width: 45%;
+      }
+      .bottom div:first-child {
+        padding-top: calc((5px * 320) / 1710);
+        padding-bottom: calc((5px * 320) / 1710);
+        padding-left: calc((28px * 320) / 1710);
+        padding-right: calc((28px * 320) / 1710);
+      }
+      
+      .bottom p {
+        font-size: 60%;
+      }
+      .last p {
+        padding: calc((-3px * 320) / 1710);
+        font-size: 40%;
+      }
+      .last {
+        padding-top: calc((6px * 320) / 1710);
+        padding-bottom: calc((6px * 320) / 1710);
+        padding-left: calc((28px * 320) / 1710);
+        padding-right: calc((28px * 320) / 1710);
+      }
+}

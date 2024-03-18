@@ -1,0 +1,28 @@
+.tch{
+    position: absolute;
+    right:14px;
+}
+
+.tch img{
+    width: 33px;
+    height: 33px;
+}
+
+@media(max-width:730px){
+    .tch{
+        right: 0;
+    }
+}
+
+@media(max-width:320px){
+    .tch img{
+        width: 70%;
+        height: 70%;
+    }
+    .tch{
+        right: -5px;
+    }
+}
+
+  
+
